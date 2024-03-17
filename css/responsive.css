@@ -1,0 +1,130 @@
+@media only screen and (max-width: 576px) {
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* Header */
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+  /* Hero */
+  .hero {
+    flex-direction: column;
+  }
+  .hero .hero-left h1 {
+    width: 378px;
+    font-size: 4.3rem;
+  }
+  .hero .hero-left p {
+    width: 360px;
+}
+  .hero .hero-right img{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 46px;
+  }
+  .hero .hero-left .info-btn a {
+    margin: 0px 5px;
+  }
+  /* Featured Projects */
+  .project {
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+  .projects span p {
+    width: 380px;
+}
+  .projects .project .project-card img {
+    padding: 80px 20px;
+    width: 420px;
+    overflow: auto;
+}
+  .projects .project .project-card {
+    height: 380px;
+}
+.projects .project .project-contant {
+  padding: 36px 0px;
+}
+.projects .project .project-contant h3,
+.projects .project .project-contant p{
+  width: 426px;
+}
+/* About */
+.about{
+  flex-direction: column;
+}
+.about .about-right h3,
+.about .about-right p{
+  width: 426px;
+}
+.about .about-right {
+  width: 430px;
+  height: 520px;
+}
+/* connect */
+.connect{
+  flex-direction: column;
+  height: 100vh;
+}
+.connect .connect-left{
+  margin-bottom: 50px;
+}
+.connect .connect-right form .form-group input[type="text"],
+.connect .connect-right form .form-group input[type="email"],
+.connect .connect-right form .form-group textarea,
+select {
+  width: 100%;
+}
+/* Copyright */
+.copyright {
+  height: 10vh;
+    margin: 10% 8%;
+}
+
+/* AboutMe Page */
+.aboutn{
+  flex-direction: column;
+}
+.aboutn .aboutn-right h3,
+.aboutn .aboutn-right p{
+  width: 426px;
+}
+.aboutn .aboutn-right {
+  width: 430px;
+  height: 520px;
+}
+.aboutn .aboutn-right .aboutn-btn a {
+  margin: 0 4px;
+}
+
+/* Capabilitie */
+.capabilitie{
+  flex-direction: column;
+}
+.capabilitie .capabilitie-right h3,
+.capabilitie .capabilitie-right p {
+  width: 426px;
+}
+.capabilitie .capabilitie-right ul {
+  width: 350px;
+}
+
+/* Experience */
+.experience{
+  flex-direction: column;
+}
+.experience .experience-right .experience-contant p {
+  width: 426px;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 1200px) {}
