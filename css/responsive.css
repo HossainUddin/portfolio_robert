@@ -26,8 +26,13 @@
     margin-top: 80px;
     margin-bottom: 46px;
   }
+  
   .hero .hero-left .info-btn a {
-    margin: 0px 5px;
+    margin: 0px 2px;
+  }
+
+  .hero .hero-left .info-btn .btn {
+    padding: 18px 40px;
   }
   /* Featured Projects */
   .project {
@@ -37,11 +42,11 @@
   .projects span p {
     width: 380px;
 }
-  .projects .project .project-card img {
+  /* .projects .project .project-card img {
     padding: 80px 20px;
-    width: 420px;
     overflow: auto;
-}
+
+} */
   .projects .project .project-card {
     height: 380px;
 }
