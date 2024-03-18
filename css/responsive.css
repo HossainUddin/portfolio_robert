@@ -1,4 +1,4 @@
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 375px) and (max-width: 991px) {
   .container{
     width: 90%;
     margin: 0 auto;
@@ -8,18 +8,24 @@
     display: flex;
     justify-content: space-between;
     margin: 10px 10px;
-}
+  }
+  header .header-menu{
+    display: none;
+  }
   /* Hero */
   .hero {
     flex-direction: column;
   }
   .hero .hero-left h1 {
-    width: 378px;
+    width: 100%;
     font-size: 4.3rem;
   }
   .hero .hero-left p {
-    width: 360px;
+    width: 100%;
 }
+  .hero .hero-right{
+    width: 100%;
+  }
   .hero .hero-right img{
     width: 100%;
     height: auto;
@@ -32,7 +38,7 @@
   }
 
   .hero .hero-left .info-btn .btn {
-    padding: 18px 40px;
+    padding: 18px 30px;
   }
   /* Featured Projects */
   .project {
@@ -52,10 +58,11 @@
 }
 .projects .project .project-contant {
   padding: 36px 0px;
+  width: 100%;
 }
 .projects .project .project-contant h3,
 .projects .project .project-contant p{
-  width: 426px;
+  width: 100%;
 }
 /* About */
 .about{
@@ -63,10 +70,10 @@
 }
 .about .about-right h3,
 .about .about-right p{
-  width: 426px;
+  width: 100%;
 }
 .about .about-right {
-  width: 430px;
+  width: 100%;
   height: 520px;
 }
 /* connect */
@@ -77,59 +84,80 @@
 .connect .connect-left{
   margin-bottom: 50px;
 }
+
+.connect .connect-right {
+  width: 100%;
+}
 .connect .connect-right form .form-group input[type="text"],
 .connect .connect-right form .form-group input[type="email"],
-.connect .connect-right form .form-group textarea,
-select {
+.connect .connect-right form .form-group textarea {
   width: 100%;
 }
 /* Copyright */
-.copyright {
+.copyright p{
   height: 10vh;
-    margin: 10% 8%;
+  margin: 10% 0 0 6%;
+  padding-top: 60px;
 }
 
 /* AboutMe Page */
 .aboutn{
   flex-direction: column;
+  padding-bottom: 160px;
 }
 .aboutn .aboutn-right h3,
 .aboutn .aboutn-right p{
-  width: 426px;
+  width: 100%;
 }
 .aboutn .aboutn-right {
-  width: 430px;
-  height: 520px;
-}
-.aboutn .aboutn-right .aboutn-btn a {
-  margin: 0 4px;
+  width: 100%;
 }
 
+.aboutn .aboutn-right .aboutn-btn .btn {
+  padding: 16px 10px;
+}
+
+.aboutn .aboutn-right .aboutn-btn a {
+  margin: 0 1px;
+}
+
+.aboutn-img{
+  padding-top: 180px;
+}
+
+.aboutn-img img{
+  width: 100%;
+  height: auto;
+}
 /* Capabilitie */
 .capabilitie{
   flex-direction: column;
 }
+.capabilitie .capabilitie-right{
+  width: 100%;
+}
 .capabilitie .capabilitie-right h3,
 .capabilitie .capabilitie-right p {
-  width: 426px;
+  width: 100%;
 }
 .capabilitie .capabilitie-right ul {
-  width: 350px;
+  width: 100%;
 }
 
 /* Experience */
 .experience{
   flex-direction: column;
 }
-.experience .experience-right .experience-contant p {
-  width: 426px;
+.experience .experience-right .experience-contant span{
+  flex-direction: column;
+  padding: 4px 0;
+}
+.experience .experience-right{
+  width: 100%;
 }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 767px) {}
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}

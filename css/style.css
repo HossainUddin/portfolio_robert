@@ -143,8 +143,6 @@ header nav .header-menu ul li a{
 /* Dot */
 .hero .hero-right img{
   width: 100%;
-  max-width: 600px;
-  min-width: 400px;
   margin-bottom: 120px;
 }
 
@@ -194,6 +192,13 @@ header nav .header-menu ul li a{
 }
 
 /* Project Contant */
+
+.projects .project .project-card{
+  transition: transform 500ms;
+}
+.projects .project .project-card:hover{
+  transform: translateY(-40px);
+}
 
 .projects .project .project-contant{
   padding: 4px 30px;
@@ -246,13 +251,14 @@ header nav .header-menu ul li a{
   border-bottom: 1px solid var(--lineColor);
 }
 .about .about-right{
-  width: 60%;
+  width: 50%;
   height: 430px;
 }
 .about .about-right a{
   color: var(--secondaryColor);
   padding-bottom: 4px;
   border-bottom: 2px solid var(--secondaryColor);
+  padding: 16px 0;
 }
 
 
@@ -260,7 +266,7 @@ header nav .header-menu ul li a{
 
 
 .connect{
-  height: 60vh;
+  height: 100vh;
 }
 .connect .connect-left a{
   color: var(--textColor);
@@ -316,27 +322,18 @@ header nav .header-menu ul li a{
 }
 
 
-/* Copyright Section Start */
-.copyright{
-  height: 10vh;
-  margin-left: 8%;
-}
-
 /* --------------------------------------------
             About Page Css
 -------------------------------------------- */
 
 .aboutn{
-  margin-top: 130px;
-  margin-bottom: 40px;
+  padding-top: 130px;
+  /* margin-bottom: 40px; */
+  padding-bottom: 100px;
 }
-.aboutn .aboutn-left h2{
-  font-weight: 400;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 101px;
-}
+
 .aboutn .aboutn-right{
-  width: 710px;
+  width: 50%;
   height: 400px;
 }
 .aboutn .aboutn-right p{
@@ -367,29 +364,33 @@ header nav .header-menu ul li a{
 /* About Img */
 
 .aboutn-img {
-  display: flex;
+  padding-top: 30px;
+  width: 100%;
 }
 
 .aboutn-img img{
   width: 100%;
-  margin: 0 auto;
+
 }
 
 /* My Capabilities Section Start */
 
 .capabilitie{
-  display: flex;
   margin-top: 130px;
-  justify-content: space-between;
   border-bottom: 1px solid var(--lineColor);
 }
+
 .capabilitie .capabilitie-right{
-  width: 600px;
-  height: 400px;
+  width: 50%;
+  /* height: 400px; */
+  padding-bottom: 18px;
 }
 .capabilitie .capabilitie-right ul{
   width: 600px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .capabilitie .capabilitie-right p{
   padding-bottom: 18px;
 }
@@ -413,8 +414,10 @@ header nav .header-menu ul li a{
 .experience .experience-right .experience-contant .exp-tag{
   color: var(--secondaryColor);
 }
+.experience .experience-right{
+  width: 50%;
+}
 .experience .experience-right .experience-contant p{
-  width: 600px;
   padding-top: 24px;
   padding-bottom: 80px;
 }
